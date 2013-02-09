@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VoiceMemo</string>
+    <string name="record">Record</string>
+    <string name="play">Play</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_manage_voice">Manage Memos</string>
+    <string name="error_file_not_found">Could not find memo recording</string>
+    <string name="error_no_network">No network connection found</string>
+    <string name="error_contact_service">Error contacting transcribe service</string>
+    <string name="error_unknown">An unknown error has occurred</string>
+    <string name="dialog_transcribe">Contacting service...</string>
+    <string name="empty_transcribe">No matches found to voice memo</string>
+    <string name="converting_file">Converting memo to supported audio format...</string>
+    <string name="error_converting_file">Error converting memo</string>
+
+</resources>
