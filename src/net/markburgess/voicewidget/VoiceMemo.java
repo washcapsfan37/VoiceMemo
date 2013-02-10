@@ -91,11 +91,13 @@ public class VoiceMemo extends AppWidgetProvider {
 			onRecord(mStartRecording, id);
             if (mStartRecording) 
             {
-            	remoteViews.setTextViewText(R.id.record_btn, "Recording...");
+            	remoteViews.setImageViewResource(R.id.record_btn, R.drawable.rec_down);
+            	remoteViews.setTextViewText(R.id.recStatus, "Recording...");
             } 
-            else 
+            else
             {
-            	remoteViews.setTextViewText(R.id.record_btn, "Record");
+            	remoteViews.setImageViewResource(R.id.record_btn, R.drawable.rec_up);
+            	remoteViews.setTextViewText(R.id.recStatus, "");
             }
             for (int appWidgetId : allWidgetIds)
             {

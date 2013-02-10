@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_width">192dp</dimen>
+    <dimen name="widget_height">192dp</dimen>
+    <dimen name="btn_width">192dp</dimen>
+    <dimen name="btn_height">192dp</dimen>
+</resources>
